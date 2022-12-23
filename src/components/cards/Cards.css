@@ -1,0 +1,114 @@
+.card{
+  border-radius: 15px;
+  background: rgb(252, 252, 252);
+  box-shadow:1px 1px 7px gray;
+  margin: 15px;
+  cursor:pointer;
+  transition:10ms;
+  position:relative;
+}
+.card-body{
+    
+    background-image: url("../assets/blob.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container-pokemon{
+    display: grid;
+    gap: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.cards{
+    border-radius: 10px;
+    justify-content:center;
+    display: flex;
+    flex-wrap:wrap;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.cards-item{
+    display:flex;
+    padding:1rem
+}
+.card-text{
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-shadow: .5px .5px .5px gray, .5px .5px .5px gray;
+    padding-bottom: 10px;
+}
+.card-footer{
+    position:absolute;
+    bottom:0;
+    right:0;
+    left:0;
+}
+th {
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    background-color: #07490c;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+  }
+#table-card td{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 2px;
+    font-size: 10px;
+    text-align: center;
+    background-color: rgba(75, 134, 100, 0.452)
+  }
+
+#table-card tr:hover{
+    background-color: #ddd;
+  }
+.img{
+    background-image: url("../assets/blob.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+/* CSS */
+.button-54 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 10px;
+  
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+.button-54:hover{
+  transform:translateY(-3px)
+}
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
